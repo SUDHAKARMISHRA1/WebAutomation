@@ -24,6 +24,7 @@ public class LoginWithMultipleTestData  extends BaseFile{
 		asserts.assertEquals(text, "CheckTitle");
 		login.loginButton();
 		asserts.assertAll();
-	// new comments
+	// remove comments
+		
 	}
 }
