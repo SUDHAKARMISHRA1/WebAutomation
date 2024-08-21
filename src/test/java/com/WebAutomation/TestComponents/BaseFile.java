@@ -52,8 +52,9 @@ public class BaseFile {
 					// Firefox
 				} else if (browserName.equalsIgnoreCase("edge")) {
 					// Edge
-					System.setProperty("webdriver.edge.driver", "./exefile/edge.exe");
+					System.setProperty("webdriver.edge.driver", "C://Users//sudhakar mishra//Downloads//msedgedriver.exe");
 					driver = new EdgeDriver();
+					
 				}
 
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
