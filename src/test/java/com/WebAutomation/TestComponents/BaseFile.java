@@ -27,6 +27,7 @@ public class BaseFile {
 		// properties class added
 		
 				WebDriverManager.chromedriver().setup();
+				WebDriverManager.edgedriver().setup();
 				Properties prop = new Properties();
 				FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
 						+ "//src//main//java//com//WebAutomation//Resources//GlobalData.properties");
