@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-21T10:18:11 IST" name="Surefire suite" finished-at="2024-08-21T10:18:25 IST" duration-ms="14387">
+  <suite started-at="2024-08-25T18:43:40 IST" name="Surefire suite" finished-at="2024-08-25T18:43:51 IST" duration-ms="11259">
     <groups>
     </groups>
-    <test started-at="2024-08-21T10:18:11 IST" name="Surefire test" finished-at="2024-08-21T10:18:25 IST" duration-ms="14387">
+    <test started-at="2024-08-25T18:43:40 IST" name="Surefire test" finished-at="2024-08-25T18:43:51 IST" duration-ms="11259">
       <class name="com.WebAutomation.TestScripts.NormalLoginTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.WebAutomation.TestScripts.NormalLoginTest@70beb599]" started-at="2024-08-21T10:18:11 IST" name="launchApplication" finished-at="2024-08-21T10:18:24 IST" duration-ms="13627" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.WebAutomation.TestScripts.NormalLoginTest@58a90037]" started-at="2024-08-25T18:43:40 IST" name="launchApplication" finished-at="2024-08-25T18:43:51 IST" duration-ms="10656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginTest()[pri:0, instance:com.WebAutomation.TestScripts.NormalLoginTest@70beb599]" started-at="2024-08-21T10:18:24 IST" name="loginTest" finished-at="2024-08-21T10:18:25 IST" duration-ms="269" status="FAIL">
+        <test-method signature="loginTest()[pri:0, instance:com.WebAutomation.TestScripts.NormalLoginTest@58a90037]" started-at="2024-08-25T18:43:51 IST" name="loginTest" finished-at="2024-08-25T18:43:51 IST" duration-ms="260" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=127.0.6533.120)
-Build info: version: '4.23.1', revision: '656257d8e9'
+  (Session info: chrome=128.0.6613.84)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56d8194c318429f9ddeb83e6d63fe002, findElement {using=link text, value=My Account}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SUDHAK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50401/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56d8194c318429f9ddeb83e6d63fe002]]>
+Command: [c1ed2f4663bd83f0a9b17c509d4e1214, findElement {value=My Account, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.84, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\SUDHAK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50642/devtoo..., se:cdpVersion: 128.0.6613.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1ed2f4663bd83f0a9b17c509d4e1214]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=127.0.6533.120)
-Build info: version: '4.23.1', revision: '656257d8e9'
+  (Session info: chrome=128.0.6613.84)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [56d8194c318429f9ddeb83e6d63fe002, findElement {using=link text, value=My Account}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\SUDHAK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50401/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 56d8194c318429f9ddeb83e6d63fe002
+Command: [c1ed2f4663bd83f0a9b17c509d4e1214, findElement {value=My Account, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.84, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\SUDHAK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50642}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50642/devtoo..., se:cdpVersion: 128.0.6613.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1ed2f4663bd83f0a9b17c509d4e1214
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -43,11 +43,11 @@ at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpRespo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
@@ -90,7 +90,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebAutomation.TestScripts.NormalLoginTest@70beb599]" started-at="2024-08-21T10:18:25 IST" name="tearDown" finished-at="2024-08-21T10:18:25 IST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebAutomation.TestScripts.NormalLoginTest@58a90037]" started-at="2024-08-25T18:43:51 IST" name="tearDown" finished-at="2024-08-25T18:43:51 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
